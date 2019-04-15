@@ -1,0 +1,99 @@
+.page-home__div__wrapper-splash {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 6rem);
+  min-height: 35rem;
+  background-color: #910001; }
+  .page-home__div__wrapper-splash .page-home__div__container-splash-content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 4rem);
+    height: calc(100% - 6rem);
+    border-radius: .1rem;
+    background-color: #ffffff; }
+    .page-home__div__wrapper-splash .page-home__div__container-splash-content .page-home__section__container-splash-image {
+      box-sizing: border-box;
+      height: 100%;
+      width: 70%;
+      background-color: gainsboro; }
+    .page-home__div__wrapper-splash .page-home__div__container-splash-content .page-home__aside__container-splash-info {
+      box-sizing: border-box;
+      height: 100%;
+      width: 40%;
+      min-width: 25rem;
+      padding: 2rem 2rem;
+      border-top-right-radius: .1rem;
+      border-bottom-right-radius: .1rem; }
+      .page-home__div__wrapper-splash .page-home__div__container-splash-content .page-home__aside__container-splash-info .page-home__img__wordmark-full {
+        display: block;
+        width: 12rem;
+        margin: 0 auto 2rem auto; }
+      .page-home__div__wrapper-splash .page-home__div__container-splash-content .page-home__aside__container-splash-info .page-home__p__info {
+        max-width: 20rem;
+        margin: 0 auto 2rem auto;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+        color: rgba(0, 0, 0, 0.9); }
+      .page-home__div__wrapper-splash .page-home__div__container-splash-content .page-home__aside__container-splash-info .page-home__nav__container-splash-actions {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%; }
+        .page-home__div__wrapper-splash .page-home__div__container-splash-content .page-home__aside__container-splash-info .page-home__nav__container-splash-actions .page-home__a__action-link {
+          box-sizing: border-box;
+          display: block;
+          width: 100%;
+          max-width: 20rem;
+          padding: .75rem 0;
+          border-radius: .1rem;
+          font-family: 'Roboto', sans-serif;
+          font-size: 1rem;
+          font-weight: 400;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+          background-color: #0073e6;
+          color: rgba(255, 255, 255, 0.9);
+          transition-timing-function: ease-in-out;
+          transition: color .2s; }
+          .page-home__div__wrapper-splash .page-home__div__container-splash-content .page-home__aside__container-splash-info .page-home__nav__container-splash-actions .page-home__a__action-link:first-of-type {
+            margin-bottom: 1rem; }
+          .page-home__div__wrapper-splash .page-home__div__container-splash-content .page-home__aside__container-splash-info .page-home__nav__container-splash-actions .page-home__a__action-link:hover {
+            color: white; }
+
+.page-home__div__container-divider {
+  box-sizing: border-box;
+  position: relative; }
+  .page-home__div__container-divider .page-home__div__divider-line {
+    min-height: 3.5rem;
+    width: 100%;
+    margin-bottom: 3.3rem;
+    border-bottom: 0.2rem solid gainsboro; }
+  .page-home__div__container-divider .page-home__header__section-header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 2.2rem;
+    width: 30rem;
+    height: 2.75rem;
+    background-color: gainsboro; }
+    .page-home__div__container-divider .page-home__header__section-header .page-home__h3__section-header-text {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-transform: uppercase; }
+
+.page-home__div__wrapper-upcoming-events {
+  min-height: 10rem;
+  width: 100%; }

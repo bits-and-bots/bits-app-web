@@ -1,0 +1,35 @@
+.component-header__header__wrapper-component {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+  padding: 0 2rem;
+  background-color: rgba(255,255,255,1);
+
+  .component-header__img__wordmark-icon {
+    height: 3rem;
+  }
+
+  .component-header__nav__container-page-links {
+    margin-left: auto;
+
+    .component-header__a__page-link {
+      padding: .25rem .5rem;
+      margin-left: 1rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: rgba(0,0,0,1);
+
+      transition-timing-function: ease-in-out;
+      transition: color .2s;
+
+      &:hover {
+        color: rgba(0,115,230,1);
+      }
+    }
+  }
+}

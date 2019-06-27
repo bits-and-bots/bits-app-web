@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import wordmarkFull from '../assets/images/bits-wordmark-large.png';
 
-import '../styles/pages/home.css';
+import '../styles/pages/home.scss';
 
 class Home extends React.Component {
   render() {

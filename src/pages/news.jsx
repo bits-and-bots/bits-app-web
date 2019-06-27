@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/pages/news.css';
+import '../styles/pages/news.scss';
 
 class News extends React.Component {
   render() {

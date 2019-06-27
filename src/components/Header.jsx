@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import wordmarkIcon from '../assets/images/bits-wordmark-small.png';
 
-import '../styles/components/header.css';
+import '../styles/components/header.scss';
 
 const Header = () => (
   <header className="component-header__header__wrapper-component">

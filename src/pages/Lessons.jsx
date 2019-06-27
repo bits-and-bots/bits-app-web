@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/pages/lessons.css';
+import '../styles/pages/lessons.scss';
 
 class Lessons extends React.Component {
   render() {

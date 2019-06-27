@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/pages/calendar.css';
+import '../styles/pages/calendar.scss';
 
 class Calendar extends React.Component {
   render() {

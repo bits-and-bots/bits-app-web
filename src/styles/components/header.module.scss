@@ -53,10 +53,11 @@
       display: none;
 
       @include breakpoint(mobile) {
+        display: block;
         position: fixed;
         top: 2rem;
         right: 2rem;
-        font-size: 1.75rem;
+        font-size: 2rem;
         color: rgba(255,255,255,1);
         cursor: pointer;
       }

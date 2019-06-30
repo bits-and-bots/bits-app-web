@@ -1,3 +1,5 @@
+@import "../../mixins/breakpoints";
+
 .page-shared__header__container-splash-header {
   box-sizing: border-box;
   display: flex;
@@ -10,13 +12,19 @@
 
   .page-shared__h2__header-title {
     font-family: 'Roboto', sans-serif;
+    line-height: 2.5rem;
     font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
+    text-align: center;
     color: rgba(255,255,255,1);
 
     span {
       color: rgba(255,255,255,.75);
+
+      @include breakpoint(mobile) {
+        display: block;
+      }
     }
   }
 }

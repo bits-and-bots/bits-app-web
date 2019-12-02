@@ -77,6 +77,7 @@ out/
 .idea/
 .idea/*.xml
 .idea/*
+bits-app-web.iml
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/

@@ -33,7 +33,7 @@
       transition: color .2s, border .2s;
 
       &:hover {
-        color: rgba(0,115,230,1);
+        color: rgba(88,158,174,1);
       }
 
       @include breakpoint(mobile) {

@@ -47,10 +47,11 @@ class Header extends React.Component {
         </Link>
         <nav className={`${styles.navWrapper} ${displayMobileNav ? styles.navWrapperMobileVisible : null}`}>
           <IoIosClose className={styles.iconClose} onClick={this.hideMobileNav} />
+          <Link to="/" className={styles.aPageLink}>Home</Link>
+          <Link to="/about" className={styles.aPageLink}>About</Link>
           <Link to="/news" className={styles.aPageLink}>News</Link>
           <Link to="/calendar" className={styles.aPageLink}>Calendar</Link>
           <Link to="/lessons" className={styles.aPageLink}>Lessons</Link>
-          <Link to="/about" className={styles.aPageLink}>About</Link>
           <Link to="/contact" className={styles.aPageLink}>Contact</Link>
         </nav>
         <IoIosMenu className={styles.iconNavMenu} onClick={this.toggleMobileNav} />

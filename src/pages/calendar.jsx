@@ -1,13 +1,14 @@
 import React from 'react';
 
 import '../styles/pages/calendar.scss';
+import BigCalendar from '../components/big-calendar.jsx';
 
 class Calendar extends React.Component {
   componentDidMount = () => {
     window.gapi.load('client', () => {
       this.fetchEvents()
     });
-  }
+  };
 
   fetchEvents() {
     window.gapi.client.init({
@@ -22,7 +23,7 @@ class Calendar extends React.Component {
           'maxResults': 20,
           'orderBy': 'startTime'
         }).then( (response) => {
-          let events = response.result.items
+          let events = response.result.items;
           this.setState({
             events
           }, ()=>{
@@ -33,7 +34,7 @@ class Calendar extends React.Component {
         });
       });
     });
-  }
+  };
 
   render() {
     return (
@@ -41,6 +42,12 @@ class Calendar extends React.Component {
         <header className="page-shared__header__container-splash-header">
           <h2 className="page-shared__h2__header-title"><span>Bits &amp; Bots</span> Calendar</h2>
         </header>
+
+        <div className="page-calendar__div__container-big-calendar">
+          <BigCalendar events={[]}/>
+        </div>
+
+        <div className="page-calendar__div__spacer"></div>
       </div>
     );
   }

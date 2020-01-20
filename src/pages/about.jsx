@@ -13,7 +13,7 @@ class About extends React.Component {
         </header>
 
         <div className="page-about__div__container-divider">
-          <div className="page-about__div__divider-line"></div>
+          <div className="page-about__div__divider-line"/>
           <header className="page-about__header__section-header">
             <h3 className="page-about__h3__section-header-text">Our Mission</h3>
           </header>
@@ -41,7 +41,7 @@ class About extends React.Component {
         </div>
 
         <div className="page-about__div__container-divider">
-          <div className="page-about__div__divider-line"></div>
+          <div className="page-about__div__divider-line"/>
           <header className="page-about__header__section-header">
             <h3 className="page-about__h3__section-header-text">Our Team</h3>
           </header>
@@ -64,7 +64,7 @@ class About extends React.Component {
               </p>
             </div>
 
-            <div className="page-about__div__container-person-spacer"></div>
+            <div className="page-about__div__container-person-spacer"/>
 
             <div className="page-about__div__container-person-photo">
               <img src={verda} alt="Photo of Verda Bursal"/>
@@ -87,7 +87,7 @@ class About extends React.Component {
               </p>
             </div>
 
-            <div className="page-about__div__container-person-spacer"></div>
+            <div className="page-about__div__container-person-spacer"/>
 
             <div className="page-about__div__container-person-photo">
               <img src={danny} alt="Photo of Daniel Rassaby"/>
@@ -111,7 +111,7 @@ class About extends React.Component {
               </p>
             </div>
 
-            <div className="page-about__div__container-person-spacer"></div>
+            <div className="page-about__div__container-person-spacer"/>
 
             <div className="page-about__div__container-person-photo">
               <img src={danny} alt="Photo of John Harrington"/>
@@ -120,7 +120,7 @@ class About extends React.Component {
         </div>
 
         <div className="page-about__div__container-divider">
-          <div className="page-about__div__divider-line"></div>
+          <div className="page-about__div__divider-line"/>
           <header className="page-about__header__section-header">
             <h3 className="page-about__h3__section-header-text">Our Research</h3>
           </header>
@@ -134,7 +134,7 @@ class About extends React.Component {
           </div>
         </div>
 
-        <div className="page-about__div__spacer"></div>
+        <div className="page-about__div__spacer"/>
       </div>
     );
   }

@@ -8,6 +8,7 @@ import Calendar from '../pages/calendar';
 import Lessons from '../pages/lessons';
 import About from '../pages/about';
 import Contact from '../pages/contact';
+import Secret from '../pages/secret';
 
 const PageLayout = () => (
   <React.Fragment>
@@ -18,6 +19,7 @@ const PageLayout = () => (
     <Route exact path="/lessons" component={Lessons} />
     <Route exact path="/about" component={About} />
     <Route exact path="/contact" component={Contact} />
+    <Route exact path="/secret" component={Secret}/>
   </React.Fragment>
 );
 

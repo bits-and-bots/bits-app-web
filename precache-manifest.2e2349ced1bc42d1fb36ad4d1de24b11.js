@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "c44988538020e8a3a469",
+    "revision": "318866528d61b3e80f47",
     "url": "/bits-app-web/static/css/main.789e9438.chunk.css"
   },
   {
-    "revision": "c44988538020e8a3a469",
-    "url": "/bits-app-web/static/js/main.d4703a03.chunk.js"
+    "revision": "318866528d61b3e80f47",
+    "url": "/bits-app-web/static/js/main.769ac937.chunk.js"
   },
   {
     "revision": "f2425cb3a8fa083620e3",
     "url": "/bits-app-web/static/js/runtime~main.e7e33796.js"
   },
   {
-    "revision": "29904c2aef7d64b2e48b",
-    "url": "/bits-app-web/static/js/2.88955b80.chunk.js"
+    "revision": "35693313aa61bb19481a",
+    "url": "/bits-app-web/static/js/2.6e3d5cf2.chunk.js"
   },
   {
     "revision": "e004a45c506ffeee11e4ffd7e59a3041",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/bits-app-web/static/media/bits_and_bots_robot_sleuth.4d572e16.png"
   },
   {
-    "revision": "0c3a522d042d828396dd5dad3a015181",
+    "revision": "f993a8ac02b00582699835c143e9dd57",
     "url": "/bits-app-web/index.html"
   }
 ];

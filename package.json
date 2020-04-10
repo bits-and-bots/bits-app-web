@@ -10,7 +10,6 @@
     "react-big-calendar": "^0.23.0",
     "react-dom": "^16.8.2",
     "react-icons": "^3.7.0",
-    "react-router-dom": "^5.0.1",
     "react-scripts": "^2.1.8"
   },
   "scripts": {
@@ -31,6 +30,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "react-router-dom": "^5.1.2"
   }
 }

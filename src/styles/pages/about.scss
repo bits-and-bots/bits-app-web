@@ -1,0 +1,111 @@
+.page-about__div__container-divider {
+  box-sizing: border-box;
+  position: relative;
+
+  .page-about__div__divider-line {
+    min-height: 3.5rem;
+    width: 100%;
+    margin-bottom: 3.3rem;
+    border-bottom: .2rem solid rgba(220,220,220, 1);
+  }
+
+  .page-about__header__section-header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 6rem;
+    top: 2.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 2.75rem;
+    background-color: rgba(220,220,220,1);
+
+    .page-about__h3__section-header-text {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-transform: uppercase;
+
+      .page-about__span__section-header-text-red {
+        color: rgba(145,0,1,1);
+      }
+    }
+  }
+}
+
+.page-about__div__container-text {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  margin-left: 6rem;
+  margin-right: 6rem;
+
+  .page-about__p__info {
+    margin: 0 0 1rem 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: rgba(0,0,0,.9);
+
+    .page-about__span__info-bold {
+      font-weight: 500;
+    }
+  }
+
+  .page-about__div__container-mission-research {
+    margin-bottom: 2rem;
+  }
+
+  .page-about__div__container-person {
+    margin-bottom: 2rem;
+
+    .page-about__div__container-person-text {
+      display: inline-block;
+      width: 75%;
+      transform: translateY(-1rem);
+
+      .page-about__h3__container-person-title {
+        margin: 0 auto 0.5rem auto;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
+        line-height: 1.4rem;
+        text-transform: uppercase;
+        color: rgba(145,0,1,1);
+
+        span {
+          color: rgba(145,0,1,0.25);
+        }
+      }
+
+      .page-about__p__container-person-bio {
+        margin: 0 0 1rem 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+        color: rgba(0,0,0,.9);
+      }
+    }
+
+    .page-about__div__container-person-spacer {
+      display: inline-block;
+      width: 5%;
+    }
+
+    .page-about__div__container-person-photo {
+      display: inline-block;
+    }
+  }
+}
+
+.page-about__div__spacer {
+  min-height: 10rem;
+  width: 100%;
+}

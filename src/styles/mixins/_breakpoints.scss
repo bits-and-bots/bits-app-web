@@ -1,0 +1,29 @@
+$largeDesktop: 90em !default;
+$desktop: 70em !default;
+$laptop: 64em !default;
+$tablet: 50em !default;
+$phablet: 37.5em !default;
+$mobile: 100% !default;
+
+@mixin breakpoint($points...) {
+  @each $point in $points {
+    @if $point == largeDesktop {
+      @media only all and (min-width: $largeDesktop) { @content ; }
+    }
+    @else if $point == desktop {
+      @media only all and (min-width: $desktop) and (max-width: $largeDesktop) { @content ; }
+    }
+    @else if $point == laptop {
+      @media only all and (min-width: $laptop) and (max-width: $desktop) { @content ; }
+    }
+    @else if $point == tablet {
+      @media only all and (min-width: $tablet) and (max-width: $laptop) { @content ; }
+    }
+    @else if $point == phablet {
+      @media only all and (min-width: $phablet) and (max-width: $tablet)  { @content ; }
+    }
+    @else if $point == mobile {
+      @media only all and (max-width: $phablet)  { @content ; }
+    }
+  }
+}

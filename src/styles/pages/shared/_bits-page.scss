@@ -1,0 +1,42 @@
+@import "../../mixins/breakpoints";
+
+.page-shared__header__container-splash-header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  margin-bottom: 2rem;
+  background-color: rgba(145,0,1,1);
+
+  .page-shared__h2__header-title {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(255,255,255,1);
+
+    span {
+      color: rgba(255,255,255,.75);
+
+      @include breakpoint(mobile) {
+        display: block;
+      }
+    }
+  }
+}
+
+a:link, a:active {
+  color: rgb(60,150,157);
+}
+
+a:visited {
+  color: rgb(25,94,122);
+}
+
+a:hover {
+  color: rgb(252,202,3);
+}

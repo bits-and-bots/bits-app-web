@@ -1,0 +1,38 @@
+@import '../../../node_modules/react-big-calendar/lib/sass/styles';
+
+.page-calendar__div__container-big-calendar {
+  box-sizing: border-box;
+  margin-left: 6rem;
+  margin-right: 6rem;
+
+  .rbc-toolbar {
+    margin-bottom: 1rem;
+
+    .rbc-btn-group {
+      button {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9rem;
+      }
+    }
+
+    .rbc-toolbar-label {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+
+  .rbc-month-header {
+    line-height: 1.4rem;
+  }
+
+  .rbc-date-cell {
+    line-height: 1.4rem;
+  }
+}
+
+.page-calendar__div__spacer {
+  min-height: 10rem;
+  width: 100%;
+}

@@ -51,7 +51,7 @@ class About extends React.Component {
           <div className="page-about__div__container-person">
             <div className="page-about__div__container-person-text">
               <h3 className="page-about__h3__container-person-title">
-                Verda Bursal <span>Co-President, Web Developer</span>
+                Verda Bursal <span>Co-President</span>
               </h3>
 
               <p className="page-about__p__container-person-bio">
@@ -113,9 +113,11 @@ class About extends React.Component {
 
             <div className="page-about__div__container-person-spacer"/>
 
+            {/*
             <div className="page-about__div__container-person-photo">
-              <img src={danny} alt="Photo of John Harrington"/>
+              <img src={john} alt="Photo of John Harrington"/>
             </div>
+            */}
           </div>
         </div>
 

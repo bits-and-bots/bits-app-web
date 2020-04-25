@@ -12,7 +12,7 @@ class Lessons extends React.Component {
 
         <div className="page-lessons__div__container-text">
           <p className="page-lessons__p__no-lessons">
-            We'll be adding our lessons here shortly!
+            We'll be adding PDFs of our lessons here shortly! In the mean time, if you are familiar with LaTeX, feel free to compile them yourself <a href="https://github.com/bits-and-bots/lessons">here</a>!
           </p>
         </div>
       </div>

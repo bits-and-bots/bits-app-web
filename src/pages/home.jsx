@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import wordmarkFull from '../assets/images/bits-wordmark-large.png';
+import abbeyRoad from '../assets/images/abbey_road.jpg'
 
 import '../styles/pages/home.scss';
 
@@ -11,9 +12,8 @@ class Home extends React.Component {
       <div className="page-home__div__wrapper-page">
         <div className="page-home__div__wrapper-splash">
           <div className="page-home__div__container-splash-content">
-            <section className="page-home__section__container-splash-image">
-
-            </section>
+            
+            <img src={abbeyRoad} alt="Photo of robots chilling with the Beatles on Abbey Road" className="page-home__section__container-splash-image"/>
 
             <aside className="page-home__aside__container-splash-info">
               <img src={wordmarkFull} alt="Bits and Bots" className="page-home__img__wordmark-full" />

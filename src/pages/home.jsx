@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import wordmarkFull from '../assets/images/bits-wordmark-large.png';
 import abbeyRoad from '../assets/images/abbey_road.jpg'
 import danny from '../assets/images/danny-headshot-mini.jpeg';
+import john from '../assets/images/john-headshot-mini.jpg';
 import verda from '../assets/images/verda-headshot-mini.JPG';
 
 import '../styles/pages/home.scss';
@@ -70,7 +71,7 @@ class Home extends React.Component {
           <div className="page-home__div__wrapper-person">
             <div className="page-home__div__wrapper-person-photo">
               <div className="page-home__div__person-photo">
-                <img src={danny} alt="Photo of John Harrington"/>
+                <img src={john} alt="Photo of John Harrington"/>
               </div>
             </div>
 

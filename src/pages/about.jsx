@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/pages/about.scss';
 import verda from '../assets/images/verda-headshot.JPG';
 import danny from '../assets/images/danny-headshot.jpeg';
+import john from '../assets/images/john-headshot.jpg';
 
 class About extends React.Component {
   render() {
@@ -48,13 +49,13 @@ class About extends React.Component {
         </div>
 
         <div className="page-about__div__container-text">
-          <div className="page-about__div__container-person">
-            <div className="page-about__div__container-person-text">
-              <h3 className="page-about__h3__container-person-title">
-                Verda Bursal <span>Co-President</span>
+          <div className="page-about__div__wrapper-person">
+            <div className="page-about__div__person-text">
+              <h3 className="page-about__h3__person-title">
+                Verda Bursal <span>Co-President, Web Developer</span>
               </h3>
 
-              <p className="page-about__p__container-person-bio">
+              <p className="page-about__p__person-bio">
                 Verda is a Computer Science and Cognitive Psychology student who joined Bits&Bots in 2019.
                 She came to Northeastern intent on becoming a neurosurgeon, but changed course and decided to follow
                 her childhood dream of being a hacker. She is proud to have a hand in giving other young children the
@@ -64,20 +65,20 @@ class About extends React.Component {
               </p>
             </div>
 
-            <div className="page-about__div__container-person-spacer"/>
+            <div className="page-about__div__person-spacer"/>
 
-            <div className="page-about__div__container-person-photo">
+            <div className="page-about__div__person-photo">
               <img src={verda} alt="Photo of Verda Bursal"/>
             </div>
           </div>
 
-          <div className="page-about__div__container-person">
-            <div className="page-about__div__container-person-text">
-              <h3 className="page-about__h3__container-person-title">
+          <div className="page-about__div__wrapper-person">
+            <div className="page-about__div__person-text">
+              <h3 className="page-about__h3__person-title">
                 Daniel Rassaby <span>Co-President</span>
               </h3>
 
-              <p className="page-about__p__container-person-bio">
+              <p className="page-about__p__person-bio">
                 Danny joined Bits&Bots in 2017. He’s a computer science student, and knows first-hand how fun computer
                 science can be! Beyond tech, he really enjoys hiking, running, podcasts, board games, traveling, and
                 talking philosophy. He’s especially interested in the intersection between philosophy and modern tech,
@@ -87,20 +88,20 @@ class About extends React.Component {
               </p>
             </div>
 
-            <div className="page-about__div__container-person-spacer"/>
+            <div className="page-about__div__person-spacer"/>
 
-            <div className="page-about__div__container-person-photo">
+            <div className="page-about__div__person-photo">
               <img src={danny} alt="Photo of Daniel Rassaby"/>
             </div>
           </div>
 
-          <div className="page-about__div__container-person">
-            <div className="page-about__div__container-person-text">
-              <h3 className="page-about__h3__container-person-title">
+          <div className="page-about__div__wrapper-person">
+            <div className="page-about__div__person-text">
+              <h3 className="page-about__h3__person-title">
                 John Harrington <span>Co-President</span>
               </h3>
 
-              <p className="page-about__p__container-person-bio">
+              <p className="page-about__p__person-bio">
                 John has been working with Bits&Bots for over 2 years. He has overseen much growth during that time,
                 and is excited to expand and improve! John is a mechanical engineer with a strong interest in computer
                 systems and robotics. When he’s not building or coding, he loves cooking meals for his friends and
@@ -111,13 +112,13 @@ class About extends React.Component {
               </p>
             </div>
 
-            <div className="page-about__div__container-person-spacer"/>
+            <div className="page-about__div__person-spacer"/>
 
-            {/*
-            <div className="page-about__div__container-person-photo">
+
+            <div className="page-about__div__person-photo">
               <img src={john} alt="Photo of John Harrington"/>
             </div>
-            */}
+            }
           </div>
         </div>
 

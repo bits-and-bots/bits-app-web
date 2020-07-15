@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import wordmarkFull from '../assets/images/bits-wordmark-large.png';
+import abbeyRoad from '../assets/images/abbey_road.jpg'
+import danny from '../assets/images/danny-headshot-mini.jpeg';
+import verda from '../assets/images/verda-headshot-mini.JPG';
 
 import '../styles/pages/home.scss';
 
@@ -11,9 +14,8 @@ class Home extends React.Component {
       <div className="page-home__div__wrapper-page">
         <div className="page-home__div__wrapper-splash">
           <div className="page-home__div__container-splash-content">
-            <section className="page-home__section__container-splash-image">
-
-            </section>
+            
+            <img src={abbeyRoad} alt="Photo of robots chilling with the Beatles on Abbey Road" className="page-home__section__container-splash-image"/>
 
             <aside className="page-home__aside__container-splash-info">
               <img src={wordmarkFull} alt="Bits and Bots" className="page-home__img__wordmark-full" />
@@ -38,7 +40,10 @@ class Home extends React.Component {
           </header>
         </div>
 
-        <div className="page-home__div__wrapper-upcoming-events">
+        <div className="page-home__div__container-upcoming-events">
+          <p className="page-home__p__no-upcoming-events">
+            No events yet! Check back in later.
+          </p>
         </div>
 
         <div className="page-home__div__container-divider">
@@ -48,7 +53,10 @@ class Home extends React.Component {
           </header>
         </div>
 
-        <div className="page-home__div__wrapper-upcoming-events">
+        <div className="page-home__div__container-latest-articles">
+          <p className="page-home__p__no-latest-articles">
+            No news yet! Check back in later.
+          </p>
         </div>
 
         <div className="page-home__div__container-divider">
@@ -58,7 +66,66 @@ class Home extends React.Component {
           </header>
         </div>
 
-        <div className="page-home__div__wrapper-upcoming-events">
+        <div className="page-home__div__container-meet-the-team">
+          <div className="page-home__div__wrapper-person">
+            <div className="page-home__div__wrapper-person-photo">
+              <div className="page-home__div__person-photo">
+                <img src={danny} alt="Photo of John Harrington"/>
+              </div>
+            </div>
+
+            <div className="page-home__div__person-spacer"/>
+
+            <div className="page-home__div__wrapper-person-text-pink">
+              <div className="page-home__div__wrapper-person-text-white">
+                <div className="page-home__div__person-text">
+                  John Harrington
+                  <span> Co-President</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="page-home__div__wrapper-person">
+            <div className="page-home__div__wrapper-person-photo">
+              <div className="page-home__div__person-photo">
+                <img src={danny} alt="Photo of Daniel Rassaby"/>
+              </div>
+            </div>
+
+            <div className="page-home__div__person-spacer"/>
+
+            <div className="page-home__div__wrapper-person-text-pink">
+              <div className="page-home__div__wrapper-person-text-white">
+                <div className="page-home__div__person-text">
+                  Daniel Rassaby
+                  <span> Co-President</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="page-home__div__wrapper-person">
+            <div className="page-home__div__wrapper-person-photo">
+              <div className="page-home__div__person-photo">
+                <img src={verda} alt="Photo of Verda Bursal"/>
+              </div>
+            </div>
+
+            <div className="page-home__div__person-spacer"/>
+
+            <div className="page-home__div__wrapper-person-text-pink">
+              <div className="page-home__div__wrapper-person-text-white">
+                <div className="page-home__div__person-text">
+                  Verda Bursal
+                  <span> Co-President, Web Developer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="page-home__div__spacer">
         </div>
       </div>
     )

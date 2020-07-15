@@ -62,15 +62,15 @@
     margin-bottom: 2rem;
   }
 
-  .page-about__div__container-person {
+  .page-about__div__wrapper-person {
     margin-bottom: 2rem;
 
-    .page-about__div__container-person-text {
+    .page-about__div__person-text {
       display: inline-block;
       width: 75%;
       transform: translateY(-1rem);
 
-      .page-about__h3__container-person-title {
+      .page-about__h3__person-title {
         margin: 0 auto 0.5rem auto;
         font-family: 'Roboto', sans-serif;
         font-size: 1.1rem;
@@ -84,7 +84,7 @@
         }
       }
 
-      .page-about__p__container-person-bio {
+      .page-about__p__person-bio {
         margin: 0 0 1rem 0;
         font-family: 'Roboto', sans-serif;
         font-size: 1rem;
@@ -94,12 +94,12 @@
       }
     }
 
-    .page-about__div__container-person-spacer {
+    .page-about__div__person-spacer {
       display: inline-block;
       width: 5%;
     }
 
-    .page-about__div__container-person-photo {
+    .page-about__div__person-photo {
       display: inline-block;
     }
   }

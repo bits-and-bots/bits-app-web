@@ -4,6 +4,9 @@ import '../styles/pages/about.scss';
 import verda from '../assets/images/verda-headshot.JPG';
 import danny from '../assets/images/danny-headshot.jpeg';
 import john from '../assets/images/john-headshot.jpg';
+import isabel from '../assets/images/sarah-headshot.jpg';
+import ishika from '../assets/images/ishika-headshot.jpg';
+import sarah from '../assets/images/sarah-headshot.jpg';
 
 class About extends React.Component {
   render() {
@@ -14,7 +17,7 @@ class About extends React.Component {
         </header>
 
         <div className="page-about__div__container-divider">
-          <div className="page-about__div__divider-line"/>
+          <div className="page-about__div__divider-line" />
           <header className="page-about__header__section-header">
             <h3 className="page-about__h3__section-header-text">Our Mission</h3>
           </header>
@@ -28,13 +31,13 @@ class About extends React.Component {
               elementary school children in ethnically and racially diverse parts of the Greater Boston area. We
               currently teach at the Grove Hall branch of the Boston Public Library, and are hoping to expand to
               other nearby branches.
-              <br/>
-              <br/>
+              <br />
+              <br />
               Intersectionality is a key aspect of our teaching model. We aim to foster diversity in computer science
               and engineering fields by sparking interest from a young age, which involves providing our students
               with role models who look like them.
-              <br/>
-              <br/>
+              <br />
+              <br />
               Our open-source curriculum is always under construction. We’re constantly building and improving it
               using feedback from teachers at the end of each lesson.
             </p>
@@ -42,7 +45,7 @@ class About extends React.Component {
         </div>
 
         <div className="page-about__div__container-divider">
-          <div className="page-about__div__divider-line"/>
+          <div className="page-about__div__divider-line" />
           <header className="page-about__header__section-header">
             <h3 className="page-about__h3__section-header-text">Our Team</h3>
           </header>
@@ -65,10 +68,10 @@ class About extends React.Component {
               </p>
             </div>
 
-            <div className="page-about__div__person-spacer"/>
+            <div className="page-about__div__person-spacer" />
 
             <div className="page-about__div__person-photo">
-              <img src={verda} alt="Photo of Verda Bursal"/>
+              <img src={verda} alt="Photo of Verda Bursal" />
             </div>
           </div>
 
@@ -88,10 +91,10 @@ class About extends React.Component {
               </p>
             </div>
 
-            <div className="page-about__div__person-spacer"/>
+            <div className="page-about__div__person-spacer" />
 
             <div className="page-about__div__person-photo">
-              <img src={danny} alt="Photo of Daniel Rassaby"/>
+              <img src={danny} alt="Photo of Daniel Rassaby" />
             </div>
           </div>
 
@@ -112,18 +115,78 @@ class About extends React.Component {
               </p>
             </div>
 
-            <div className="page-about__div__person-spacer"/>
+            <div className="page-about__div__person-spacer" />
 
 
             <div className="page-about__div__person-photo">
-              <img src={john} alt="Photo of John Harrington"/>
+              <img src={john} alt="Photo of John Harrington" />
             </div>
-            }
+          </div>
+
+
+          <div className="page-about__div__wrapper-person">
+            <div className="page-about__div__person-text">
+              <h3 className="page-about__h3__person-title">
+                Isabel Silva <span>[insert role here]</span>
+              </h3>
+
+              <p className="page-about__p__person-bio">
+                [insert bio here]
+            </p>
+            </div>
+
+            <div className="page-about__div__person-spacer" />
+
+            <div className="page-about__div__person-photo">
+              <img src={isabel} alt="Photo of Isabel Silva" />
+            </div>
+          </div>
+
+          <div className="page-about__div__wrapper-person">
+            <div className="page-about__div__person-text">
+              <h3 className="page-about__h3__person-title">
+                Sarah Lackey <span>[insert role here]</span>
+              </h3>
+
+              <p className="page-about__p__person-bio">
+                Sarah joined Bits&Bots in 2020. She is a Cybersecurity major, which means she's learning all about how to
+                protect people on the computer (and how to be a bonafide hacker!). She loves helping her community and teaching
+                kids more about the things she loves, and that's exactly what she gets to do with Bits&Bots! If she's not to
+                working with Bits&Bots, she's probably reading a good book, playing fun video games, or learning to ice skate.
+            </p>
+            </div>
+
+            <div className="page-about__div__person-spacer" />
+
+            <div className="page-about__div__person-photo">
+              <img src={sarah} alt="Photo of Sarah Lackey" />
+            </div>
+          </div>
+
+          <div className="page-about__div__wrapper-person">
+            <div className="page-about__div__person-text">
+              <h3 className="page-about__h3__person-title">
+                Ishika Choudhary <span>Curriculum Develeoper and Teacher</span>
+              </h3>
+
+              <p className="page-about__p__person-bio">
+                Ishika is a second year Computer Science and Math major. She joined Bits&Bots in Spring 2020, and is looking forward
+                to developing more curriculum! In her free time, she likes to visit new coffee shops, attend concerts at Boston
+                Symphony Orchestra, cook with her roommates, and code!
+            </p>
+            </div>
+
+            <div className="page-about__div__person-spacer" />
+
+            <div className="page-about__div__person-photo">
+              <img src={ishika} alt="Photo of Ishika Choudhary" />
+            </div>
           </div>
         </div>
 
+
         <div className="page-about__div__container-divider">
-          <div className="page-about__div__divider-line"/>
+          <div className="page-about__div__divider-line" />
           <header className="page-about__header__section-header">
             <h3 className="page-about__h3__section-header-text">Our Research</h3>
           </header>
@@ -137,7 +200,7 @@ class About extends React.Component {
           </div>
         </div>
 
-        <div className="page-about__div__spacer"/>
+        <div className="page-about__div__spacer" />
       </div>
     );
   }

@@ -4,7 +4,7 @@ import '../styles/pages/about.scss';
 import verda from '../assets/images/verda-headshot.JPG';
 import danny from '../assets/images/danny-headshot.jpeg';
 import john from '../assets/images/john-headshot.jpg';
-import isabel from '../assets/images/sarah-headshot.jpg';
+import isabel from '../assets/images/isabel-headshot.jpg';
 import ishika from '../assets/images/ishika-headshot.jpg';
 import sarah from '../assets/images/sarah-headshot.jpg';
 
@@ -127,11 +127,16 @@ class About extends React.Component {
           <div className="page-about__div__wrapper-person">
             <div className="page-about__div__person-text">
               <h3 className="page-about__h3__person-title">
-                Isabel Silva <span>[insert role here]</span>
+                Isabel Silva <span>Co-Vice President</span>
               </h3>
 
               <p className="page-about__p__person-bio">
-                [insert bio here]
+                Isabel Silva is new to Bits&Bots, joining in 2020. She is a second year Computer Science and Design student,
+                interested in how people access and interact with tech as well as how students are introduced to and
+                taught coding. She comes to Northeastern from Somerville, Mass. and is proud of being a “Villen”. She is
+                interested in ESL education and hopes to return to Somerville as an educator one day. She spends her time
+                playing frisbee in the dark, learning new things and eating good food. Ask her about Brazil and good eats
+                in Boston.
             </p>
             </div>
 
@@ -145,7 +150,7 @@ class About extends React.Component {
           <div className="page-about__div__wrapper-person">
             <div className="page-about__div__person-text">
               <h3 className="page-about__h3__person-title">
-                Sarah Lackey <span>[insert role here]</span>
+                Sarah Lackey <span>Co-Vice President</span>
               </h3>
 
               <p className="page-about__p__person-bio">
@@ -166,7 +171,7 @@ class About extends React.Component {
           <div className="page-about__div__wrapper-person">
             <div className="page-about__div__person-text">
               <h3 className="page-about__h3__person-title">
-                Ishika Choudhary <span>Curriculum Develeoper and Teacher</span>
+                Ishika Choudhary <span>Curriculum Developer, Teacher</span>
               </h3>
 
               <p className="page-about__p__person-bio">

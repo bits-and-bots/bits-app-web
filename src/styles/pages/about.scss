@@ -68,7 +68,8 @@
     .page-about__div__person-text {
       display: inline-block;
       width: 75%;
-      transform: translateY(-1rem);
+      vertical-align: top;
+      margin-top: 1rem;
 
       .page-about__h3__person-title {
         margin: 0 auto 0.5rem auto;

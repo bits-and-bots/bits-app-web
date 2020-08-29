@@ -105,7 +105,7 @@ class About extends React.Component {
               </h3>
 
               <p className="page-about__p__person-bio">
-                John has been working with Bits&Bots for over 2 years. He has overseen much growth during that time,
+                John has been working with Bits&Bots for over 3 years. He has overseen much growth during that time,
                 and is excited to expand and improve! John is a mechanical engineer with a strong interest in computer
                 systems and robotics. When he’s not building or coding, he loves cooking meals for his friends and
                 loved ones, traveling, games of all sorts, and helping the communities he’s a part of. One of his main

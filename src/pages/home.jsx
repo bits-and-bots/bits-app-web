@@ -77,7 +77,8 @@ class Home extends React.Component {
               <div className="page-home__div__person-photo">
                 <img src={john} alt="Photo of John Harrington"/>
               </div>
-              <div className="page-home__div__wrapper-person-text-white">
+              <div className="page-home__div__person-spacer"/>
+              <div className="page-home__div__wrapper-person-text">
                 <div className="page-home__div__person-text">
                   <h2 className="page-home__h2__person-title">
                     John Harrington
@@ -98,7 +99,8 @@ class Home extends React.Component {
               <div className="page-home__div__person-photo">
                 <img src={danny} alt="Photo of Daniel Rassaby"/>
               </div>
-              <div className="page-home__div__wrapper-person-text-white">
+              <div className="page-home__div__person-spacer"/>
+              <div className="page-home__div__wrapper-person-text">
                 <div className="page-home__div__person-text">
                   <h2 className="page-home__h2__person-title">
                     Daniel Rassaby
@@ -119,7 +121,8 @@ class Home extends React.Component {
               <div className="page-home__div__person-photo">
                 <img src={verda} alt="Photo of Verda Bursal"/>
               </div>
-              <div className="page-home__div__wrapper-person-text-white">
+              <div className="page-home__div__person-spacer"/>
+              <div className="page-home__div__wrapper-person-text">
                 <div className="page-home__div__person-text">
                   <h2 className="page-home__h2__person-title">
                     Verda Bursal
@@ -140,7 +143,8 @@ class Home extends React.Component {
               <div className="page-home__div__person-photo">
                 <img src={sarah} alt="Photo of Sarah Lackey"/>
               </div>
-              <div className="page-home__div__wrapper-person-text-white">
+              <div className="page-home__div__person-spacer"/>
+              <div className="page-home__div__wrapper-person-text">
                 <div className="page-home__div__person-text">
                   <h2 className="page-home__h2__person-title">
                     Sarah Lackey
@@ -161,7 +165,8 @@ class Home extends React.Component {
               <div className="page-home__div__person-photo">
                 <img src={isabel} alt="Photo of Isabel Silva"/>
               </div>
-              <div className="page-home__div__wrapper-person-text-white">
+              <div className="page-home__div__person-spacer"/>
+              <div className="page-home__div__wrapper-person-text">
                 <div className="page-home__div__person-text">
                   <h2 className="page-home__h2__person-title">
                     Isabel Silva
@@ -182,7 +187,8 @@ class Home extends React.Component {
               <div className="page-home__div__person-photo">
                 <img src={ishika} alt="Photo of Ishika Choudhary"/>
               </div>
-              <div className="page-home__div__wrapper-person-text-white">
+              <div className="page-home__div__person-spacer"/>
+              <div className="page-home__div__wrapper-person-text">
                 <div className="page-home__div__person-text">
                   <h2 className="page-home__h2__person-title">
                     Ishika Choudhary

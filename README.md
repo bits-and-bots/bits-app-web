@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm deploy`
+
+Deploys a new live version of the app (the one found at `HEAD`).
+
+This can only be done if you have push access to the `gh-pages` branch. If you don't have push access and you should, create an issue or send a question to our Slack.
+
 ### `npm start`
 
 Runs the app in the development mode.<br>

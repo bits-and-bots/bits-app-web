@@ -18,7 +18,7 @@ The website may take a few minutes to deploy. After waiting a few minutes, you s
 
 Note: eventually all deployment will be done during CI/CD and no humans will have push access.
 
-For now, please **only deploy after your commit is merged into master**.
+For now, please **only deploy after your changes are merged into master** and **always deploy from master**.
 
 ### `npm start`
 

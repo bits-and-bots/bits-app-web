@@ -10,7 +10,7 @@ Deploys a new live version of the app.<br>
 
 For now, please **only deploy after your changes are merged into master** and **always deploy from master**.
 
-Before deploying, please ensure you're on the master branch, and you have no uncommitted (or even unpushed) changes (`git status` is clean, and your remote tracking branch is up to date with your local branch.)
+Before deploying, please ensure you're on the master branch, and you have no uncommitted or unpushed changes (`git status` is clean, and your remote tracking branch is up to date with your local branch.)
 
 This script makes a new build based off your local version of the project. This works by first generating a new build (placed into the `build`) directory, then pushing the resulting contents of that directory to the `gh-pages` branch.
 

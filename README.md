@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 Deploys a new live version of the app.<br>
 
-Before deploying, please ensure you have no uncommitted (or even unpushed) changes (`HEAD` is in the correct place, `git status` is clean, and your remote tracking branch is up to date with your local branch).
+Before deploying, please ensure you have no uncommitted (or even unpushed) changes (you've checked out the commit of the version you wish to deploy, `git status` is clean, and your remote tracking branch is up to date with your local branch).
 
 This script makes a new build based off your local version of the project. This works by first generating a new build (placed into the `build`) directory, then pushing the resulting contents of that directory to the `gh-pages` branch.
 

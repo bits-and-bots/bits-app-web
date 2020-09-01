@@ -6,9 +6,19 @@ In the project directory, you can run:
 
 ### `npm deploy`
 
-Deploys a new live version of the app (the one found at `HEAD`).
+Deploys a new live version of the app.<br>
 
-This can only be done if you have push access to the `gh-pages` branch. If you don't have push access and you should, create an issue or send a question to our Slack.
+Before deploying, please ensure you have no uncommitted (or even unpushed) changes (`HEAD` is in the correct place, `git status` is clean, and your remote tracking branch is up to date with your local branch).
+
+This script makes a new build based off your local version of the project. This works by first generating a new build (placed into the `build`) directory, then pushing the resulting contents of that directory to the `gh-pages` branch.
+
+This can only be done if you have push access to the `gh-pages` branch. If you don't have push access and you should, create an issue or send a question to our [#website](https://bits-n-bots.slack.com/archives/CG6RUDZ29) channel in Slack.
+
+The website may take a few minutes to deploy. After waiting a few minutes, you should ensure that the site is up (you will likely have to do a hard refresh or view it in private browser mode to avoid viewing a locally cached version).
+
+Note: eventually all deployment will be done during CI/CD and no humans will have push access.
+
+For now, please **only deploy after your commit is merged into master**.
 
 ### `npm start`
 

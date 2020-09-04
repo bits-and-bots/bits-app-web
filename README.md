@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 We use [yarn](https://yarnpkg.com/) to manage dependencies.
 
-To install `yarn` on MacOS with homebrew:
+To install `yarn` on MacOS with [homebrew](https://brew.sh/):
 
 ```
 brew install yarn

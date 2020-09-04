@@ -147,7 +147,7 @@
 
 .page-home__div__container-upcoming-events {
   min-height: 10rem;
-  width: 100%;
+  width: calc(100% - 12rem);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -168,7 +168,7 @@
 
 .page-home__div__container-latest-articles {
   min-height: 10rem;
-  width: 100%;
+  width: calc(100% - 12rem);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -189,7 +189,7 @@
 
 .page-home__div__container-meet-the-team {
   min-height: 10rem;
-  width: 100%;
+  width: calc(100% - 12rem);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -197,46 +197,58 @@
   justify-content: left;
   margin-left: 6rem;
   margin-right: 6rem;
+  margin-top: 3rem;
 
   .page-home__div__wrapper-person {
-    width: calc(100% - 12rem);
-    margin-bottom: -3rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: rgba(145,0,1,0.25);
 
-    .page-home__div__wrapper-person-photo {
-      background-color: rgba(145,0,1,0.25);
-      display: inline-block;
+    .page-home__div__person {
+      height: 200px;
+      margin: 3px;
+      background-color: white;
 
       .page-home__div__person-photo {
         display: inline-block;
-        margin: 2rem;
       }
-    }
 
-    .page-home__div__person-spacer {
-      display: inline-block;
-      width: 2rem;
-    }
+      .page-home__div__person-spacer {
+        display: inline-block;
+        width: 3px;
+        height: 100%;
+        background-color: rgba(145,0,1,0.25);
+      }
 
-    .page-home__div__wrapper-person-text-pink {
-      background-color: rgba(145,0,1,0.25);
-      display: inline-block;
-      height: calc(100px + 4rem);
-      width: calc(100% - 100px - 8rem);
-      transform: translateY(-50%);
-
-      .page-home__div__wrapper-person-text-white {
-        margin: 2rem;
+      .page-home__div__wrapper-person-text {
+        vertical-align: top;
+        display: inline-block;
+        width: calc(100% - 203px);
 
         .page-home__div__person-text {
-          font-family: 'Roboto', sans-serif;
-          font-size: 1.1rem;
-          font-weight: 500;
-          line-height: 1.4rem;
-          text-transform: uppercase;
-          color: rgba(0,0,0,.9);
+          overflow-wrap: normal;
+          margin: 1rem 2rem;
 
-          span {
-            color: white;
+          .page-home__h2__person-title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 500;
+            line-height: 1.4rem;
+            text-transform: uppercase;
+            color: rgba(145,0,1,1);
+            margin-bottom: 1rem;
+
+            span {
+              color: rgba(145,0,1,0.25);
+            }
+          }
+
+          .page-home__p__person-bio {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.4rem;
+            color: rgba(0,0,0,.9);
           }
         }
       }

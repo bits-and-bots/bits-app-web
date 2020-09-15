@@ -56,7 +56,7 @@ class About extends React.Component {
               </h3>
 
               <p className="page-about__p__person-bio">
-                Verda is cool
+                Verda is cool.
               </p>
             </div>
 

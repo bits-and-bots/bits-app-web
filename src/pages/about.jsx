@@ -56,12 +56,7 @@ class About extends React.Component {
               </h3>
 
               <p className="page-about__p__person-bio">
-                Verda is a Computer Science and Cognitive Psychology student who joined Bits&Bots in 2019.
-                She came to Northeastern intent on becoming a neurosurgeon, but changed course and decided to follow
-                her childhood dream of being a hacker. She is proud to have a hand in giving other young children the
-                same dream. When she’s not working towards becoming a CTO, Verda spends her time biking, running,
-                generally being outdoors, traveling, reading, and making art. She also enjoys board games, tea, and
-                LinkedIn endorsements. Ask her about bilingualism or the difference between a fruit and a vegetable.
+                Verda is cool
               </p>
             </div>
 

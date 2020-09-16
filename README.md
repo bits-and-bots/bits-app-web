@@ -12,6 +12,27 @@ brew install yarn
 
 For installation on a different OS, see the docs [here](https://classic.yarnpkg.com/en/docs/install/).
 
+## Getting started
+
+First clone the repo.
+
+SSH:
+```
+git clone git@github.com:bits-and-bots/bits-app-web.git
+```
+
+HTTPS:
+```
+git clone https://github.com/bits-and-bots/bits-app-web.git
+```
+
+Then, from the base directory of the project, install the dependencies:
+```
+yarn install
+```
+
+Now you can run all the available scripts below!
+
 ## Available Scripts
 
 In the project directory, you can run:

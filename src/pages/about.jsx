@@ -171,12 +171,13 @@ class About extends React.Component {
           <div className="page-about__div__wrapper-person">
             <div className="page-about__div__person-text">
               <h3 className="page-about__h3__person-title">
-                Ishika Choudhary <span>Curriculum Developer, Teacher</span>
+                Ishika Choudhary <span>Curriculum Developer, Teacher, Web Developer</span>
               </h3>
 
               <p className="page-about__p__person-bio">
                 Ishika is a second year Computer Science and Math major. She joined Bits&Bots in Spring 2020, and is looking forward
-                to developing more curriculum! In her free time, she likes to visit new coffee shops, attend concerts at Boston
+                to developing more curriculum! She also hopes to learn some new web development skills!
+                In her free time, she likes to visit new coffee shops, attend concerts at Boston
                 Symphony Orchestra, cook with her roommates, and code!
             </p>
             </div>

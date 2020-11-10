@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import wordmarkFull from '../assets/images/bits-wordmark-large.png';
-import abbeyRoad from '../assets/images/abbey_road.jpg'
+import groupScreenshot from '../assets/images/group-screenshot-smiling.png';
 import danny from '../assets/images/danny-headshot-mini.jpeg';
 import john from '../assets/images/john-headshot-mini.jpg';
 import verda from '../assets/images/verda-headshot-mini.JPG';
@@ -16,7 +16,7 @@ class Home extends React.Component {
         <div className="page-home__div__wrapper-splash">
           <div className="page-home__div__container-splash-content">
             
-            <img src={abbeyRoad} alt="Photo of robots chilling with the Beatles on Abbey Road" className="page-home__section__container-splash-image"/>
+            <img src={groupScreenshot} alt="Photo of 9 Bits&Bots members on a Zoom call" className="page-home__section__container-splash-image"/>
 
             <aside className="page-home__aside__container-splash-info">
               <img src={wordmarkFull} alt="Bits and Bots" className="page-home__img__wordmark-full" />

@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://bits-and-bots.github.io/bits-app-web",
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-sass": "^4.13.1",
     "react": "^16.8.2",
     "react-big-calendar": "^0.23.0",
